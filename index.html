@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FurniShop — Smart storage systems for your home</title>
+  <meta name="description" content="FurniShop: modular shelving, wardrobes, cabinets and racks that keep every room organised.">
+  <meta name="color-scheme" content="light dark">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Raleway:wght@500;700&family=Saira:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#products">Skip to products</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="#home">FurniShop</a>
+      <nav class="nav" id="menu" aria-label="Main">
+        <ul class="nav__list">
+          <li><a class="nav__link is-active" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#features">Features</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+          <li>
+            <button class="theme-toggle" type="button" aria-pressed="false">
+              <span class="theme-toggle__text">Dark theme</span>
+              <span class="theme-toggle__icon" aria-hidden="true"></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <button class="cart" type="button" aria-label="Cart, 0 items">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11h10.2L20 7H6"/><circle cx="9" cy="19.5" r="1.5"/><circle cx="17" cy="19.5" r="1.5"/></svg>
+          <span class="cart__count" aria-hidden="true">0</span>
+        </button>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero__bg" src="https://images.unsplash.com/photo-1718939045285-b67f9e9f9f8b?auto=format&amp;fit=crop&amp;q=75&amp;w=1920" alt="" width="1440" height="850">
+      <span class="pin pin--1" aria-hidden="true"></span>
+      <span class="pin pin--2" aria-hidden="true"></span>
+      <span class="pin pin--3" aria-hidden="true"></span>
+      <div class="container hero__content">
+        <h1 class="hero__title" id="hero-title">Smart Storage That Simplifies Your Home</h1>
+        <p class="hero__text">Modular shelves, wardrobes and cabinets that turn clutter into calm. Pick a system, plan your space and get it delivered.</p>
+        <a class="btn btn--glass" href="#products">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="FurniShop in numbers">
+      <div class="container">
+        <ul class="stats__list">
+          <li class="stats__item"><strong class="stats__num">7</strong><span class="stats__label">Years of experience</span></li>
+          <li class="stats__item"><strong class="stats__num">2</strong><span class="stats__label">Opened in the country</span></li>
+          <li class="stats__item"><strong class="stats__num">10k+</strong><span class="stats__label">Systems sold</span></li>
+          <li class="stats__item"><strong class="stats__num">260+</strong><span class="stats__label">Storage variants</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="feature container reveal" id="about" aria-labelledby="about-title">
+      <div class="feature__body">
+        <h2 class="title" id="about-title">We Make Your Home More Organised</h2>
+        <p class="lead">FurniShop designs storage that adapts to your rooms: start with one shelf and grow into a full wall system without replacing a single part.</p>
+        <ul class="checklist">
+          <li><h3>Free space planning</h3><p>Send us your room dimensions and our designers draw a storage layout for you within two days.</p></li>
+          <li><h3>Modular systems</h3><p>Every shelf, drawer and door fits the same grid, so you can rearrange or extend it at any time.</p></li>
+        </ul>
+      </div>
+      <figure class="feature__media"><img src="https://images.unsplash.com/photo-1652517209166-f17a2742a5fe?auto=format&amp;fit=crop&amp;q=75&amp;w=1100" alt="White shelf with decor objects" width="554" height="443" loading="lazy"></figure>
+    </section>
+
+    <section class="new-in reveal" aria-labelledby="new-title">
+      <div class="new-in__inner">
+        <div class="new-in__intro">
+          <h2 class="title" id="new-title">New In Store Now</h2>
+          <p>Get the latest items immediately with promo prices</p>
+          <a class="link-arrow" href="#products">Check All <span aria-hidden="true">→</span></a>
+        </div>
+        <ul class="new-in__list">
+          <li><a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1572780789900-43ef70568a0f?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="" width="265" height="400" loading="lazy"><span class="cat__name">Shelving</span></a></li>
+          <li><a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1718939045285-b67f9e9f9f8b?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="" width="265" height="400" loading="lazy"><span class="cat__name">Wardrobes</span></a></li>
+          <li><a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1658867839109-bf3e2af75cc2?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="" width="265" height="400" loading="lazy"><span class="cat__name">Cabinets</span></a></li>
+          <li><a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1664983674780-ae1fc27e7fac?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="" width="265" height="400" loading="lazy"><span class="cat__name">Racks</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="feature feature--reverse container reveal" id="features" aria-labelledby="features-title">
+      <div class="feature__body">
+        <h2 class="title" id="features-title">The Best Storage Maker of Your Choice</h2>
+        <p class="lead">Solid oak, powder-coated steel and recycled board: we pick materials that carry heavy loads, last for decades and look good doing it. Every system comes with a ten-year warranty.</p>
+      </div>
+      <figure class="feature__media"><img src="https://images.unsplash.com/photo-1658867839109-bf3e2af75cc2?auto=format&amp;fit=crop&amp;q=75&amp;w=1100" alt="Wooden cabinet with open shelves" width="554" height="399" loading="lazy"></figure>
+    </section>
+
+    <section class="products container reveal" id="products" aria-labelledby="products-title">
+      <header class="section-head">
+        <h2 class="title" id="products-title">All Products</h2>
+        <p>The products we offer are selected from the best storage systems, with number one quality in every detail</p>
+      </header>
+      <div class="products__grid">
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1652517209166-f17a2742a5fe?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="White modular shelf unit" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Modular Shelf Unit" aria-label="Add Modular Shelf Unit to cart">+</button></div><h3 class="card__title">Modular Shelf Unit</h3><p class="card__price">$75.00 <s>$82.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1718939045285-b67f9e9f9f8b?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Wooden walk-in wardrobe with hangers" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Walk-in Wardrobe" aria-label="Add Walk-in Wardrobe to cart">+</button></div><h3 class="card__title">Walk-in Wardrobe</h3><p class="card__price">$200.00 <s>$210.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1664983674780-ae1fc27e7fac?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Grey open shelf with bottles and decor" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Open Display Shelf" aria-label="Add Open Display Shelf to cart">+</button></div><h3 class="card__title">Open Display Shelf</h3><p class="card__price">$45.00 <s>$50.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1658867839109-bf3e2af75cc2?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Brown wooden storage cabinet" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Corner Cabinet" aria-label="Add Corner Cabinet to cart">+</button></div><h3 class="card__title">Corner Cabinet</h3><p class="card__price">$320.00 <s>$325.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1572780789900-43ef70568a0f?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Floating wall shelf with a plant" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Floating Wall Shelf" aria-label="Add Floating Wall Shelf to cart">+</button></div><h3 class="card__title">Floating Wall Shelf</h3><p class="card__price">$225.00 <s>$240.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1652517209166-f17a2742a5fe?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Nordic white shelf unit" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Nordic Shelf Unit" aria-label="Add Nordic Shelf Unit to cart">+</button></div><h3 class="card__title">Nordic Shelf Unit</h3><p class="card__price">$50.00 <s>$70.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1658867839109-bf3e2af75cc2?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Tall wooden cabinet" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Pantry Cabinet" aria-label="Add Pantry Cabinet to cart">+</button></div><h3 class="card__title">Pantry Cabinet</h3><p class="card__price">$105.00 <s>$120.00</s></p></article>
+        <article class="card"><div class="card__media"><img src="https://images.unsplash.com/photo-1664983674780-ae1fc27e7fac?auto=format&amp;fit=crop&amp;q=75&amp;w=600" alt="Open steel display rack" width="290" height="300" loading="lazy"><button class="card__add" type="button" data-name="Steel Open Rack" aria-label="Add Steel Open Rack to cart">+</button></div><h3 class="card__title">Steel Open Rack</h3><p class="card__price">$82.00 <s>$100.00</s></p></article>
+      </div>
+      <nav class="pager" aria-label="Product pages">
+        <button class="round-btn" type="button" aria-label="Previous page">←</button>
+        <span class="pager__dots" aria-hidden="true"><i class="is-active"></i><i></i><i></i><i></i><i></i></span>
+        <button class="round-btn round-btn--fill" type="button" aria-label="Next page">→</button>
+      </nav>
+    </section>
+
+    <section class="planner reveal" aria-labelledby="planner-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="title" id="planner-title">Plan Your Storage in 3 Steps</h2>
+          <p>From an empty wall to a finished system in less than a week</p>
+        </header>
+        <ol class="planner__steps">
+          <li><h3>Measure</h3><p>Note the width, height and depth of the space and what you need to store.</p></li>
+          <li><h3>Choose modules</h3><p>Pick shelves, drawers and doors. Our planner checks that everything fits.</p></li>
+          <li><h3>Install</h3><p>We deliver flat-packed parts with a tool kit. Most systems are ready in one hour.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="testimonial container reveal" aria-labelledby="testimonial-title">
+      <h2 class="title testimonial__title" id="testimonial-title">What People Are Saying About Us</h2>
+      <div class="testimonial__person">
+        <img src="img/avatar.svg" alt="Portrait of Josh Smith" width="80" height="80" loading="lazy">
+        <div><strong>Josh Smith</strong><span>Interior designer at Nordic Loft</span></div>
+      </div>
+      <blockquote class="testimonial__quote" aria-live="polite"><p>“Their modular shelves fit my narrow hallway perfectly. Easy to assemble, solid quality and the planning help was a real bonus.”</p></blockquote>
+      <img class="testimonial__img" src="https://images.unsplash.com/photo-1572780789900-43ef70568a0f?auto=format&amp;fit=crop&amp;q=75&amp;w=1100" alt="Wall-mounted shelf with a potted plant" width="562" height="340" loading="lazy">
+      <div class="testimonial__nav">
+        <button class="round-btn" type="button" aria-label="Previous review">←</button>
+        <button class="round-btn round-btn--fill" type="button" aria-label="Next review">→</button>
+      </div>
+    </section>
+
+    <section class="cta" id="contact" aria-labelledby="cta-title">
+      <img class="cta__bg" src="https://images.unsplash.com/photo-1664983674780-ae1fc27e7fac?auto=format&amp;fit=crop&amp;q=75&amp;w=1920" alt="" width="1440" height="490" loading="lazy">
+      <div class="container cta__inner">
+        <div class="cta__box">
+          <h2 class="cta__title" id="cta-title">Get 15% discount on your first order</h2>
+          <p class="cta__text">Join our mailing list</p>
+          <form class="cta__form" action="#">
+            <label class="sr-only" for="email">Your email address</label>
+            <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+            <button class="btn btn--dark" type="submit">Shop Now</button>
+          </form>
+          <p class="cta__status" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <a class="footer__logo" href="#home">FurniShop</a>
+        <ul class="social">
+          <li><a href="#" aria-label="Instagram">IG</a></li>
+          <li><a href="#" aria-label="Facebook">FB</a></li>
+          <li><a href="#" aria-label="Twitter">X</a></li>
+          <li><a href="#" aria-label="GitHub">GH</a></li>
+          <li><a href="#" aria-label="Pinterest">PI</a></li>
+        </ul>
+      </div>
+      <div class="footer__cols">
+        <section><h2 class="footer__title">Our Products</h2><ul><li><a href="#products">Shelving</a></li><li><a href="#products">Wardrobes</a></li><li><a href="#products">Cabinets</a></li><li><a href="#products">Racks</a></li></ul></section>
+        <section><h2 class="footer__title">Services</h2><ul><li><a href="#">Space planning</a></li><li><a href="#">Delivery</a></li><li><a href="#">Installation</a></li><li><a href="#">Warranty</a></li></ul></section>
+        <section><h2 class="footer__title">Support</h2><ul><li><a href="#">Help Center</a></li><li><a href="#">Returns</a></li><li><a href="#">Assembly guides</a></li><li><a href="#">Contact us</a></li></ul></section>
+        <section><h2 class="footer__title">Company</h2><ul><li><a href="#about">About Us</a></li><li><a href="#">Press</a></li><li><a href="#">Careers</a></li><li><a href="#">Stores</a></li></ul></section>
+        <section><h2 class="footer__title">Favourite Things</h2><ul><li><a href="#">Wishlist</a></li><li><a href="#">Offers</a></li><li><a href="#">Gift cards</a></li><li><a href="#">For business</a></li></ul></section>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>© FurniShop 2026 - All Rights Reserved</p></div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
