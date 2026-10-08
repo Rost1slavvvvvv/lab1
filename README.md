@@ -4,7 +4,7 @@
 - **Варіант:** 8 — системи зберігання, `--color-accent: #5F6B63`
 - **Макет Figma:** https://www.figma.com/design/mkmEjVRZWmDfexQT2okxCO/Lab-1--Copy-?node-id=2-2
   (десктоп 1440 px, мобільний 390 px)
-- **GitHub Pages:** 
+- **GitHub Pages:** https://rost1slavvvvvv.github.io/lab1/
 
 ## Підхід
 Фреймворк не використовується: власний CSS, mobile first (`min-width`). Рівні розміри з макета: контейнер 1240 px (77.5rem), бічні поля 25 px на мобільному, секції ~100 px.
